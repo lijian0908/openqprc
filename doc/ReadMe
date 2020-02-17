@@ -1,0 +1,12 @@
+#运行Django:
+python manage.py runserver 8080
+#创建模块：
+python manage.py startapp 【模块名】
+#更新或新建表结构
+python manage.py migrate
+#激活模型
+python manage.py makemigrations 【模块名】
+#查看模型创建的表
+python manage.py sqlmigrate 【模块名】 0001
+#创建站点用户
+python manage.py createsuperuser
